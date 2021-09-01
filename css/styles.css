@@ -1,0 +1,29 @@
+/* fixes title spacing */
+.title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* fixes logo size */
+.logo{
+    height: 40px;
+    width: 70px;
+}
+
+/* fixes the card size */
+div .card{
+    max-height: 297px;
+}
+
+div .col{
+    max-width: 286;
+}
+.card-img-top{
+    height: 190px;
+}
+
+/* fixes the spacing of submit button i am aware it is badly coded and im sorry */
+.button{
+    margin: 20px 0px 20px;
+}
+

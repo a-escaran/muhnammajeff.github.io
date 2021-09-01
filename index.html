@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="./css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Car Hire</title>
+</head>
+<body class="bg-dark">
+    <!-- nav -->
+    <div class="Nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+            <div class="container-fluid">
+                <!-- code for the borgir button what a surprise its broken still -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarSupportedContent" aria-label="Toggler navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- options for navbar -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <img src="images/broke.jpg" alt="Italian Trulli" class="logo">
+                    </li>  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Cars">Cars</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Enquiries">Enquiries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- title -->
+    <div class="title">
+        <!-- jumbrotron title -->
+        <div class="jumbotron text-center">
+            <h1 class="display-6 text-white">Vintage Cars for hire</h1>  
+            <!-- line thing       -->
+            <hr class="my-4 text-white">
+          </div>
+    </div>
+
+    <!-- car listing  (i used grids)-->
+    <div class="container Cars d-flex flex-row p-5 " id="Cars">
+        <div class="row">
+        <div class="col">
+            <!-- card 1 -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/car 1.jpg" alt="First car image">
+            <div class="card-body">
+                <h6>Vintage Car w/ heating</h6>
+              <p class="card-text">Perfect for a snowy drive.. </p>
+            </div>
+          </div>
+            </div>
+            <!-- card 2 -->
+          <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/car 2.jpg" alt="Second car image">
+            <div class="card-body">
+                <h6>Vintage Car Convertible</h6>
+                <p class="card-text">Windows down all the time.. </p>
+            </div>
+          </div>
+            </div>
+            <!-- card 3 -->
+          <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/car 3.jpg" alt="Third car image">
+            <div class="card-body">
+                <h6>Vintage Lightweight car</h6>
+                <p class="card-text">Careful the hood might fly off.. </p>
+            </div>
+          </div>
+            </div>
+            <!-- card 4 -->
+          <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/car 4.jpg" alt="Fourth car image">
+            <div class="card-body">
+                <h6>Vintage Lowrider</h6>
+                <p class="card-text">Wheels tilted, and ready for cruise..</p>
+            </div>
+          </div>
+            </div></div>
+    </div>
+
+    <!-- enquire form -->
+    <div class="container Enquiries bg-light p-3" id="Enquiries">
+        <form>
+            <!-- form title -->
+            <p class="enquiret">Enquire About a car</p>
+            <div class="form-group">
+                <!-- name text input  -->
+              <label for="exampleFormControlInput1">Full Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+            </div>
+                <!-- email text input -->
+            <div class="form-group">
+                <label for="exampleFormControlInput1" >Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <!-- car selector type -->
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select car</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Vintage Car w/ Heating</option>
+                <option>Vintage Convertible</option>
+                <option>Vintage Lightweight Car</option>
+                <option>Vintage Lowrider</option>
+              </select>
+            </div>
+                <!-- comments text area -->
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Comments</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <!-- submit button -->
+            <div class="button">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+    </div>
+
+
+    <!-- contact -->
+    <div class="container Contact p-5 text-white" id="Contact">
+        <!-- contact segment -->
+        <article>
+            <p><strong>Contact</strong></p>
+            <p>Address: 5 john street, Moe Victoria 3825</p>  
+            <p>Phone: 1300 655 506</p>
+            <p>Email: yeummyemailaddressis@gmail.com</p>
+        </article>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer text-center text-white">
+        <p>Copyright (c) Joshua Escaran. All rights reserved. 2021</p>
+    </footer>
+
+</body>
+</html>
